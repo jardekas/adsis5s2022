@@ -29,11 +29,19 @@ public class TestesIntrodutórios {
 	@Test
 	public void teste_de_divisão() {
 		Calculadora calc = new Calculadora();
+<<<<<<< HEAD
 		double total = calc.dividir(35, 7);		
 		assertEquals(5, total, 0);
 		
 		total = calc.dividir(27, 3);		
 		assertEquals(9, total, 0);
+=======
+		double total = calc.dividir(10, 2);		
+		assertEquals(5, total, 0);
+		
+		total = calc.dividir(15, 3);		
+		assertEquals(5, total, 0);
+>>>>>>> d539e2d3f50cb59fd379a2456b8d3da5479152ee
 		
 		total = calc.dividir(16, 3.3);		
 		assertEquals(4.848484, total, 0);
@@ -48,6 +56,7 @@ public class TestesIntrodutórios {
 		
 		total = calc.multiplicar(15, 3);		
 		assertEquals(45, total, 0);
+<<<<<<< HEAD
 	}
 	
 	@Test(expected = DivisãoPorZeroException.class)
@@ -55,5 +64,9 @@ public class TestesIntrodutórios {
 		Calculadora calc = new Calculadora();
 		double total = calc.div(10, 0);		
 				
+=======
+
+	}
+>>>>>>> d539e2d3f50cb59fd379a2456b8d3da5479152ee
 
 }
